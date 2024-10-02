@@ -103,11 +103,10 @@ DELETE FROM FARMERS WHERE NAME='LISA';
 COMMIT;
 ```
 ;
-## CONCEPTUAL DIAGRAM AND QUERIES WITH THEIR OUTPUTS
+## CONCEPTUAL DIAGRAM 
 ![conceptual diagram](RELATIONSHIPS.PNG "conceptual diagram")
-![QUERY](.queries and output1.PNG "OUTPUT")
-
-![Query](queries and output1.PNG "Query")
-
-![QUERY](Query and output2.PNG "QUERY")
+## CONCLUSION
+The Agricultural Management System is built using Oracle SQL to efficiently manage farmer and crop information. 
+The system supports functionalities such as tracking crop yields, sales transactions, and farmer data. 
+This database provides a strong foundation for managing agricultural production data in an organized manner.
 
