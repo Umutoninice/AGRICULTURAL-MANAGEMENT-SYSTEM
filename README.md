@@ -104,7 +104,7 @@ COMMIT;
 ```
 ;
 
-![conceptual diagram](C:\Users\user\Desktop\Nice\PL SQL ASSIGNMENT NO1 "conceptual diagram")
+![conceptual diagram](RELATIONSHIPS.PNG "conceptual diagram")
 
 
 ### query and output
