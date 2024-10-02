@@ -107,9 +107,10 @@ COMMIT;
 ![conceptual diagram](RELATIONSHIPS.PNG "conceptual diagram")
 
 
-### query and output
+### conceptual diagram
 ```sql
 
+![conceptual diagram](RELATIONSHIPS.PNG "conceptual diagram")
 
 ```
 ;
