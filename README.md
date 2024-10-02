@@ -8,11 +8,10 @@ This README provides an overview of the **Farmer and Crop Management System**, d
 The `Farmers` table stores information about farmers, including their contact details, role, hire date, and salary.
 
 ```sql
-CREATE TABLE FARMERS (
-    FARMERID NUMBER PRIMARY KEY,              -- Unique identifier for each farmer
-    NAME VARCHAR2(150) NOT NULL,              -- Name of the farmer
-    CONTACT NUMBER,                           -- Farmer's contact number
-    ROLE VARCHAR2(200),                       -- Farmer's role (e.g., Manager, Trader)
-    HIREDATE DATE,                            -- Date the farmer was hired
-    SALARY NUMBER                             -- Farmer's salary
+CREATE TABLE FARMERS(
+FARMERID NUMBER PRIMARY KEY,
+NAME VARCHAR(150),
+CONTACT INT,
+ROLE VARCHAR(200),
+HIREDATE DATE,SALARY int
 );
