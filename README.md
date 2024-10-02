@@ -103,17 +103,13 @@ DELETE FROM FARMERS WHERE NAME='LISA';
 COMMIT;
 ```
 ;
-
+## CONCEPTUAL DIAGRAM
 ![conceptual diagram](RELATIONSHIPS.PNG "conceptual diagram")
+## QUERY
+![QUERY](queries and output1.PNG "QUERY")
+## QUERY
+![QUERY](Query and output2.PNG "QUERY")
 
-
-### conceptual diagram
-```sql
-
-![conceptual diagram](RELATIONSHIPS.PNG "conceptual diagram")
-
-```
-;
 ### query and output
 ```sql
 
