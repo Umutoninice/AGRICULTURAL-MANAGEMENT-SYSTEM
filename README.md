@@ -1,4 +1,4 @@
-# Farmer and Crop Management System (Using Oracle as RDBMS)
+# Agricultural Management System 
 
 This README provides an overview of the **Farmer and Crop Management System**, designed to manage information related to farmers, fields, crops, sales, and customers. The system includes tables for Farmers, Fields, Crops, Sales, and Customers, supporting efficient tracking of crop production and sales management.
 
@@ -75,5 +75,31 @@ INSERT INTO FARMERS VALUES( 1,'KALISA',0788888888,'MANAGER',TO_DATE('12-12-2023'
 INSERT INTO FARMERS VALUES( 3,'LISA',078888,'MANAGER',TO_DATE('12-12-2023','DD-MM-YYYY'),200);
 INSERT INTO FARMERS VALUES( 2398,'KAMALIZA',0798765432,'TRADER',TO_DATE('20-02-2021','DD-MM-YYYY'),150000);
 COMMIT
+```
+;
+### inserting into fields
+```sql
+INSERT INTO FIELDS VALUES( 309,'AMAHORO',20,'HUYE','CLAY');
+INSERT INTO FIELDS VALUES( 209,'HINGA WEZA',36,'KAYONZA','LOAMY');
+INSERT INTO FIELDS VALUES( 109,'RAMIRO',17,'BUGESERA','SANDY')
+```
+;
+### inserting into crops
+```sql
+INSERT INTO CROPS VALUES ( 11,'MUSHROOM',TO_DATE('30-09-2022','DD-MM-YYYY'),TO_DATE('27-12-2022','DD-MM-YYYY'),'150KG',109);
+INSERT INTO CROPS VALUES ( 22,'SWEET_POTATOES',TO_DATE('24-07-2021','DD-MM-YYYY'),TO_DATE('18-06-2022','DD-MM-YYYY'),'300KG',309);
+INSERT INTO CROPS VALUES ( 33,'BEANS',TO_DATE('20-02-2021','DD-MM-YYYY'),TO_DATE('29-03-2022','DD-MM-YYYY'),'400KG',209);
+INSERT INTO CROPS VALUES ( 30,'BEANS',TO_DATE('20-02-2021','DD-MM-YYYY'),TO_DATE('29-03-2022','DD-MM-YYYY'),'400KG',209);
+```
+;
+
+### select,update and delete comands
+```sql
+SELECT * FROM CROPS WHERE CROPID = 33;
+COMMIT;
+UPDATE CROPS SET CROPNAME='FRUITS' WHERE CROPID=33;
+COMMIT;
+DELETE FROM FARMERS WHERE NAME='LISA';
+COMMIT;
 ```
 ;
