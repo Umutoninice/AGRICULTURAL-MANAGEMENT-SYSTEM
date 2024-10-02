@@ -106,13 +106,7 @@ COMMIT;
 ## CONCEPTUAL DIAGRAM
 ![conceptual diagram](RELATIONSHIPS.PNG "conceptual diagram")
 ## QUERY
-![QUERY](queries and output1.PNG "QUERY")
+![Query](queries and output1.PNG "Query")
 ## QUERY
 ![QUERY](Query and output2.PNG "QUERY")
 
-### query and output
-```sql
-
-
-```
-;
