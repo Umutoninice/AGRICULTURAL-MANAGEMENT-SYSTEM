@@ -105,6 +105,7 @@ COMMIT;
 ;
 ## CONCEPTUAL DIAGRAM 
 ![conceptual diagram](RELATIONSHIPS.PNG "conceptual diagram")
+![conceptual diagram](queryandoutput1.PNG "conceptual diagram")
 ## CONCLUSION
 The Agricultural Management System is built using Oracle SQL to efficiently manage farmer and crop information. 
 The system supports functionalities such as tracking crop yields, sales transactions, and farmer data. 
